@@ -1,0 +1,4 @@
+docker run hello-world
+cd java-docker-app
+docker build -t java-app .
+docker run java-app
